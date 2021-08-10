@@ -29,6 +29,7 @@ header.masthead {
 
 .nav-link {
     color: #fff !important;
+    font-weight: 600;
 
     &:hover {
         color: #06193b !important;
@@ -170,8 +171,8 @@ header.masthead {
 }
 
 #gallery {
-    background: #0651C0;
-    background-repeat: repeat-y;
+    background: #0651C0 url('../../img/layered-waves.svg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     margin-top: -0.250rem;
@@ -195,6 +196,83 @@ header.masthead {
             border-radius: 10% !important;
             box-shadow: 6px 12px 15px 6px rgba(0, 0, 0, 0.25) !important;
         }
+
+    }
+
+    .button-gallery {
+        transition-property: all;
+        transition-delay: 2ms;
+
+        &:hover {
+            color: #143b84;
+            background-color: #fff;
+            border: 1px solid #143b84;
+        }
+    }
+}
+
+#testimonial {
+    background: #143b84 url('../../img/wave2.svg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: top;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-title {
+        font-size: 3rem;
+        line-height: 1rem;
+        font-weight: bold;
+        color: #143b84;
+    }
+
+    .section-desc {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        padding-top: 0.5rem;
+        color: #06193b;
+    }
+
+    .testimonial-carousel {
+        margin-top: 5rem;
+    }
+
+    .carousel-indicatiors {
+        button {
+            color: #143b84 !important;
+        }
+    }
+
+    .card {
+        position: relative;
+        background: #fff;
+        box-shadow: 0 8px 30px -7px #c9dff0;
+        margin: 0 20px;
+        padding: 0 10px;
+        border-radius: 20px;
+        border: 0;
+        margin-bottom: 3rem;
+
+        .card-img-top {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 15px auto 0;
+            box-shadow: 0 8px 20px -4px #95abbb;
+            width: 100px;
+            height: 100px;
+        }
+
+        h5 {
+            color: #143b84;
+            font-size: 21px;
+            line-height: 1.3;
+
+            span {
+                font-size: 18px;
+                color: #666666;
+            }
+        }
+
     }
 }
 
