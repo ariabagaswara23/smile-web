@@ -278,6 +278,64 @@ header.masthead .header-h1 {
   color: #666666;
 }
 
+#contact {
+  background: #143b84;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: top;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contact .section-title {
+  font-size: 3rem;
+  line-height: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#contact .section-desc {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding-top: 0.5rem;
+  color: #dfdfdf;
+}
+
+#contact .form-contact {
+  margin-top: 4rem;
+}
+
+#contact .form-contact input {
+  margin-bottom: 1rem;
+}
+
+.border-top {
+  border-top: 1px solid #143b84 !important;
+}
+
+footer .row-1 ul {
+  margin-bottom: 1rem;
+}
+
+footer .row-1 ul li {
+  font-size: 1.5em;
+}
+
+footer .row-1 ul li a {
+  color: #143b84;
+  font-size: 0.7em;
+  text-decoration: none;
+}
+
+footer .footer-icons {
+  color: #143b84;
+  font-size: 1.5em;
+}
+
+footer .footer-text {
+  color: #143b84;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar {
     background-color: #fff;
@@ -339,5 +397,8 @@ header.masthead .header-h1 {
   }
   .program-title-2 {
     text-align: center !important;
+  }
+  .row-1 {
+    text-align: start;
   }
 }
