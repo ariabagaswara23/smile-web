@@ -334,6 +334,11 @@ footer .row-1 ul li a {
   text-decoration: none;
 }
 
+footer .row-1 ul li a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 footer .footer-icons {
   color: #143b84;
   font-size: 1.5em;
