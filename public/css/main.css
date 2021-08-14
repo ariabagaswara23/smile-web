@@ -357,7 +357,7 @@ header.about-masthead .header-h1 {
 }
 
 #about-about {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
   margin-top: -1rem;
 }
@@ -378,6 +378,97 @@ header.about-masthead .header-h1 {
           box-shadow: 6px 12px 15px 6px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   margin-bottom: 2rem;
+}
+
+#team {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#team .section-title {
+  font-size: 3rem;
+  line-height: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#team .section-desc {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding-top: 0.5rem;
+  color: #dfdfdf;
+}
+
+#team .team-carousel {
+  margin-top: 5rem;
+}
+
+#team .carousel-indicatiors button {
+  color: #143b84 !important;
+}
+
+#team .card {
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 8px 30px -7px #c9dff0;
+          box-shadow: 0 8px 30px -7px #c9dff0;
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+  margin-bottom: 3rem;
+}
+
+#team .card .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  -webkit-box-shadow: 0 8px 20px -4px #95abbb;
+          box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+}
+
+#team .card h5 {
+  color: #143b84;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+#team .card h5 span {
+  font-size: 18px;
+  color: #666666;
+}
+
+#team .card .team-socmed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#team .card .team-socmed ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#team .card .team-socmed ul li {
+  display: inline;
+}
+
+#team .card .team-socmed ul li a {
+  font-size: 1.5em;
+  margin: 0.5rem;
+  color: #143b84;
+}
+
+#team .card .team-socmed ul li a:hover {
+  color: #06193b;
 }
 
 @media only screen and (max-width: 991px) {
