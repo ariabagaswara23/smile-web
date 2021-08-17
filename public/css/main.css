@@ -476,6 +476,39 @@ header.about-masthead .header-h1 {
   color: #06193b;
 }
 
+#announcement {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#announcement .news-card {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#announcement .news-card .text-blue h2 {
+  color: #143b84;
+}
+
+#announcement .news-card .text-blue p.date {
+  color: #143b84;
+}
+
+#announcement .news-card .text-blue p {
+  color: #06193b;
+}
+
+#gallery-section {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar {
     background-color: #fff;

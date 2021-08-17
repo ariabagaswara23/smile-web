@@ -366,6 +366,8 @@ header.about-masthead {
     }
 }
 
+
+
 #about-about {
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -473,6 +475,44 @@ header.about-masthead {
             }
         }
     }
+}
+
+#announcement {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    .news-card {
+        background: rgba(255, 255, 255, 0.80);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20.0px);
+        -webkit-backdrop-filter: blur(20.0px);
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+        .text-blue {
+            h2 {
+                color: #143b84;
+            }
+
+            p.date {
+                color: #143b84;
+            }
+
+            p {
+                color: #06193b;
+            }
+
+        }
+    }
+}
+
+#gallery-section {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+
+
 }
 
 @media only screen and (max-width: 991px) {
